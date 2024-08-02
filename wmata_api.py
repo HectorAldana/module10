@@ -18,7 +18,7 @@ app = Flask(__name__)
 def get_incidents(unit_type):
   unit_type = unit_type[:-1].upper()
 
-  dummy_var = -1 # dummy hange for CircleCI
+  dummy_var = -2 # dummy hange for CircleCI
 
   params = urllib.parse.urlencode({  })
   try:
